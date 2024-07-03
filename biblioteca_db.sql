@@ -1,0 +1,12 @@
+create database biblioteca_senac_db;
+use biblioteca_db;
+CREATE TABLE tb_cadastro(
+	ID_CADASTRO INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    TITULO VARCHAR(100)NOT NULL,
+    AUTO VARCHAR(50)NOT NULL,
+    GENERO VARCHAR(25)NOT NULL,
+    ANO_PUBLICACAO INT,
+    ISBN INT,
+    PAGINAS INT
+);
+
